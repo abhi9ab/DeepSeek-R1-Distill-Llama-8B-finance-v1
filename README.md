@@ -12,10 +12,10 @@
 
 ## Model Details
 
-- Base Model: unsloth/DeepSeek-R1-Distill-Llama-8B
+- Base Model: [unsloth/DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B)
 - Fine-Tuning Method: LoRA
-- Fine-Tuned Model: abhi9ab/DeepSeek-R1-Distill-Llama-8B-finance-v1
-- Dataset: Josephgflowers/Finance-Instruct-500k (reduced to 5k JSONL entries)
+- Fine-Tuned Model: [abhi9ab/DeepSeek-R1-Distill-Llama-8B-finance-v1](https://huggingface.co/abhi9ab/DeepSeek-R1-Distill-Llama-8B-finance-v1)
+- Dataset: [Josephgflowers/Finance-Instruct-500k](https://huggingface.co/datasets/Josephgflowers/Finance-Instruct-500k) (reduced to 5k JSONL entries)
 - Platform: Free-tier Kaggle Notebook
 - Libraries: Hugging Face Transformers, Unsloth, Weights and Biases (wandb), pytorch
 
